@@ -1,0 +1,25 @@
+#grails build directory
+target
+
+# In-memory database lock files
+*.h2.db
+*.lock.db
+
+# eclipse files
+build
+**/.settings
+**/.classpath
+**/.springBeans
+**/.project
+target-eclipse
+
+# intellij user-specific files
+# https://intellij-support.jetbrains.com/hc/en-us/articles/206827587-How-to-manage-projects-under-Version-Control-Systems
+.idea/workspace.xml
+.idea/tasks.xml
+out
+overlays
+
+# Mac files
+.DS_Store
+
